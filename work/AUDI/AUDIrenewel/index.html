@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AUDI</title>
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script/lib/jquery.3.6.0.js"></script>
+  <script src="script/lib/jquery-ui.min.js"></script>
+  <script src="script/lib/jquery.transform2d.js"></script>
+  <script src="script/custom.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+  <div id="container">
+
+    <header>
+      <div class="header_top">
+        <h1 class="logo">
+          <a href="#none">
+            <img src="img/logog.jpg" alt="로고">
+          </a>
+        </h1>
+        <ul class="left_icon">
+      
+          <li><a href="#none"><i class="fas fa-user"></i></a></li>
+          <li><a href="#none"><i class="fas fa-map-marker-alt"></i></a></li>
+   
+          
+        </ul>
+        <ul class="right_icon">
+          <li><a href="#none"><img src="img/icon_top_search.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="header_menu">
+        <div class="inner_long">
+          <ul class="gnb">
+            <li class="font"><a href="#none">MODELS</a>
+              <!-- black_bar -->
+              <div class="black_bar">
+                <div class="inner">
+                  <div class="left_sub">
+                    <strong>AUDI CARS</strong>
+                    <a href="#none">전체 모델 보기<i class="fas fa-chevron-right"></i></a>
+                  </div>
+                  <div class="main_sub">
+                    <ul class="sub">
+                      <li><a href="#none">e-tron GT</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">e-tron GT quattro</a></li>
+                          <li><a href="#none">RS e-tron GT</a></li>
+                         
+                        </ul>
+                      </li>
+                      <li><a href="#none">A series</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none" class="sub_c">A3</a></li>
+                          <li><a href="#none" class="sub_c">A4</a></li>
+                          <li><a href="#none" class="sub_c">A5</a></li>
+                          <li><a href="#none" class="sub_c">A6</a></li>
+                          <li><a href="#none" class="sub_c">A7</a></li>
+                          <li><a href="#none" class="sub_c">A8</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">Q series</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none" class="sub_c">Q2</a></li>
+                          <li><a href="#none" class="sub_c">Q3</a></li>
+                          <li><a href="#none" class="sub_c">Q4 e-tron</a></li>
+                          <li><a href="#none" class="sub_c">Q5</a></li>
+                          <li><a href="#none" class="sub_c">Q7</a></li>
+                          <li><a href="#none" class="sub_c">Q8</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">R series</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none" class="sub_c">R8</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">e-tron</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">e-tron</a></li>
+                          <li><a href="#none">e-tron Sportback</a></li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#none">COMPANY</a>
+              <div class="black_bar">
+                <div class="inner">
+                  <div class="left_sub">
+                    <strong>AUDI Company</strong>
+                    <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                  </div>
+                  <div class="main_sub">
+                    <ul class="sub2">
+                      
+                            <li><a href="#none">아우디코리아 소개</a>
+                             
+                            </li>
+                            <li><a href="#none">아우디코리아 소식</a>
+                           
+                              
+                            </li>
+                            <li><a href="#none">고객안내</a>
+                            
+                        <a href="#none">전시장 찾기</a>
+                        <img src="img/foundcar.jpg" alt="">
+                        
+                      </li>
+                 
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#none">SERVICE</a>
+            <div class="black_bar">
+              <div class="inner">
+                <div class="left_sub">
+                  <strong>AUDI Service</strong>
+                  <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="main_sub">
+                  <ul class="sub2">
+                    
+                          <li><a href="#none">아우디서비스</a>
+                           
+                          </li>
+                          <li><a href="#none">서비스 프로그램</a>
+                         
+                            
+                          </li>
+                          <li><a href="#none">고객지원센터</a>
+                           
+                      <a href="#none">서비스 센터</a>
+                      <img src="img/service.jpg" alt="">
+                      
+                    </li>
+               
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+            <li><a href="#none">EXPERIENCE</a>
+            <div class="black_bar">
+              <div class="inner">
+                <div class="left_sub">
+                  <strong>AUDI Experience</strong>
+                  <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="main_sub">
+                  <ul class="sub2">
+                    
+                          <li><a href="#none">아우디서비스</a>
+                           
+                          </li>
+                          <li><a href="#none">서비스 프로그램</a>
+                         
+                            
+                          </li>
+                          <li><a href="#none">고객지원센터</a>
+                           
+                      <a href="#none">Future is an attitude</a>
+                      <img src="img/future.jpg" alt="">
+                      
+                    </li>
+               
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+            <li><a href="#none">SUSTAINABILITY</a>
+              <div class="black_bar">
+                <div class="inner">
+                  <div class="left_sub">
+                    <strong>AUDI Sustainability</strong>
+                    <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                  </div>
+                  <div class="main_sub">
+                    <ul class="sub2">
+                      
+                            <li><a href="#none">아우디서비스</a>
+                             
+                            </li>
+                            <li><a href="#none">서비스 프로그램</a>
+                           
+                              
+                            </li>
+                            <li><a href="#none">고객지원센터</a>
+                             
+                        <a href="#none">전기 모빌리티</a>
+                        <img src="img/mobilty.jpg" alt="">
+                        
+                      </li>
+                 
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+           
+           
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    
+
+    <div id="pop">
+      <img src="img/audimodal.gif" alt="popup">
+      <a href="#none" id="close_btn"><img src="img/cariccon.jpg" alt="" ></a>
+    </div>
+
+
+
+    <!-- mainbanner -->
+    <div id="main">
+     <div class="main_banner">
+         <video src="video/AudiA635TDI.mp4" autoplay controls> 
+        </video>   
+    </div> 
+    </div>    
+
+ 
+
+
+    
+ 
+
+
+
+  <!-- best -->
+
+  <div id="best">
+    <div class="best_item">
+      <div class="bt_inner">
+          <h2>AUDI BEST OUR MODELS </h2>
+          <h3>역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 아우디 브랜드의 라인업을 살펴보세요.</h3>
+          <!-- <div class="tab_btn">
+            <a href="#none">e-tron GT</a>
+            <a href="#none">A3-A8</a>
+            <a href="#none">Q2-Q8 </a>
+            <a href="#none">R8</a>
+            <a href="#none">e-tron</a>
+          </div>
+     -->
+
+   <!-- event -->
+
+          <div id="event" class="cont_wrap">
+            <!-- cont1 -->
+            <div class="event inner">
+              <h2>MY E-TRON</h2>
+              <div class="event_item">
+                <div class="event_box1">
+                  <div class="event_img">
+                    <img src="img/mainbanner.png" alt="
+                      audi car">
+                  </div>
+                  <div class="event_txt">
+                    <h3>My E-tron</h3>
+                    <p>
+                      아우디가 여러분과 함께 지속가능한 모빌리티의<br>미래를 함께 만들어 갈 수 있도록 아우디 e-tron의<br> 아우디의 믿음직스러운 홍보대사가 되어주세요! 
+                    </p>
+                    <a href="#none" class="click_btn">자세히보기</a>
+                  </div>
+                </div>
+            </div>
+              
+        </div>
+
+
+
+
+            <!-- best_item inner -->
+          <div id="car">
+            <div class="car_list ">
+              <div class="car_item">
+                 <div class="car_box1 box1">
+                  <div class="car_img">
+                  <a href="#none"> <img src="img/audietrongtn.png" alt="audi car"></a>  
+                  </div>
+                  <div class="car_txt">
+                    <h3>내 AUDI e-tron GT 보기</h3>
+                    <!-- <h4>AUDI e-tron GT quattro</h4> -->
+                    <a href="#none" class="cclick_btn">자세히보기</a>
+                  </div>
+                </div>
+                <div class="car_box2 box1">
+                  <div class="car_img">
+                    <a href="#none"><img src="img/audi a8.png" alt="audi car"></a>
+                  </div>
+                  <div class="car_txt">
+                    <h3>내 AUDI A8 보기</h3>
+                    <!-- <h4>AUDI A8</h4> -->
+                    <a href="#none" class="cclick_btn">자세히보기</a>
+                  </div>
+                </div>
+                <div class="car_box3 box1">
+                  <div class="car_img">
+                    <a href="#none"><img src="img/audiq8n.png" alt="audi car"></a>
+                  </div>
+                   <div class="car_txt">
+                    <h3>내 AUDI Q8 보기</h3>
+                    <!-- <h4>AUDI Q8</h4> -->
+                    <a href="#none" class="cclick_btn">자세히보기</a>
+                  </div>
+                </div>
+                <div class="car_box4 box1">
+                  <div class="car_img">
+                    <a href="#none"> <img src="img/r8new.png" alt="audi car"></a>
+                  </div>
+                  <div class="car_txt">
+                     <h3>내 AUDI R8 보기</h3>
+                    <!-- <h4>AUDI R8</h4> -->
+                     <a href="#none" class="cclick_btn">자세히보기</a>
+                  </div>
+                </div>
+                <div class="car_box4 box1">
+                  <div class="car_img">
+                    <a href="#none"> <img src="img/etronn.png" alt="audi car"></a>
+                   </div>
+                   <div class="car_txt">
+                     <h3>내 AUDI e-tron 보기 </h3>
+                     <!-- <h4>AUDI e-tron</h4> -->
+                     <a href="#none" class="cclick_btn">자세히보기</a>
+                   </div>
+                 </div>
+              </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+         
+
+
+
+
+<!-- sound -->
+
+
+<!-- <div id="sound">
+  <div class="car_sound_wrap">
+
+    <div class="sound_inner">
+      <video controls src="video/sound.mp4"></video>
+      <div class="sd_text">
+       
+        <h1>아우디 e-트론 GT콰트로의 e-사운드</h1>
+
+       
+       
+      </div>
+
+      
+    </div>
+  </div>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- conts -->
+
+
+<!--    
+    
+    <div id="conts">
+      <div class="aboutConts">
+        <div class="about_txtwrap">
+          <img src="/images/mainbanner1.jpg" alt="">
+          <p>
+           <h1>ROADSTER <br>BY AUDI</h1>
+           <h2>About Audi Korea</h2>
+           
+          </p>
+
+          <p class="ceo">
+            독일 AUDI AG의 한국내 판매법인으로 설립된<br> Audi Korea를 소개해 드립니다.<br>
+            
+            독일의 프리미엄 자동차 브랜드 아우디 AG가 100% 투자한 <br>한국 판매 법인인 아우디 코리아<br>
+            아우디 코리아는 “기술을 통한 진보”라는 아우디의 기업 슬로건 아래,<br> 최상급 제품과 딜러 네트워크의 확장,<br> 첨단 기술과 진보적 디자인의 조화를 통한 최고의 제품만을 <br>고객에게 제공할 것입니다.
+           
+          </p>
+   
+        </div>
+      
+      </div>
+    </div> -->
+
+
+
+
+
+
+<!-- cont2 -->
+
+
+    <div id="cont2">
+      <div class="inner">
+        <div class="slideWrap">
+          <div class="slides">
+            <a href="#none" ><img src="img/Q4main.jpg" alt="슬라이드이미지1"></a>
+            <a href="#none"><img src="img/22222222222.jpg   " alt="슬라이드이미지2"></a>
+            <a href="#none"><img src="img/333333333333.jpg" alt="슬라이드이미지3"></a>
+            
+          </div>
+        </div> 
+      </div>  
+    </div>
+
+
+<!-- watch -->
+
+
+
+    <div id="watch">
+    <div class="video_wrap">
+
+      <div class="video_inner">
+        <video  autoplay controls src="video/1920x1080-audi-rs-gt-exterior-10_RS_GT_NeMo.mp4"></video>
+        <div class="vd_text">
+          <p>Audi I Vorsprung durch Technik<br>
+            Ideas start the future : Audi RS e-tron GT</p>
+          <h1>전기 모빌리티의 새로운 차원</h1>
+          <h2>RS e-tron GT 외부 디자인</h2>
+         
+          <p>독보적인 존재감. 공기 역학적 성능에서 모던한<br> 영감을 받은 간결한 디자인에는 자동차의 개념을<br> 재해석하는 원대한 포부가 반영되어 있습니다.<br> 
+          진보적인 럭셔리함이 감성적인 주행 경험을 더욱<br>  미래적인 럭셔리함  한차원 더 끌어올려줍니다.<br>
+          빨간색 마름모의 RS 엠블럼이 도드라집니다.</p>
+        </div>
+
+        
+      </div>
+    </div>
+    </div>
+
+
+    <!-- cont3 -->
+
+
+    <!-- <div id="cont3">
+     <div class="audi_connect">
+      <div class="cnt_txtwrap">
+       
+         <p>
+          <h1>Audi Connect</h1>
+          <h2>서비스 이용 제한 안내</h2>
+          
+         </p>
+      
+         <p class="btn">
+         <a href="#none">자세히보기</a></p>
+          
+      </div>
+     </div>
+    </div>
+
+
+
+
+
+  
+  
+
+    cont4
+
+
+    <div id="cont4">
+      <img src="img/cont3333.jpg" alt="">
+    </div> --> 
+
+
+    <!-- cont5 -->
+
+
+
+    <div id="cont5">
+      <div class="cars1">
+        <div class="cars1_txtWrap">
+          
+          <p>
+            <h1>The new Audi RS <br> E-tron GT</h1>
+            <h2>전기 모빌리티의 새로운 차원</h2>
+            
+           </p>
+        
+           <p class="btn">
+           <a href="#none">자세히보기</a></p>
+
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- cont6 -->
+
+
+
+    <div id="cont6">
+      <div class="cars2">
+       <div class="cars2_txtWrap">
+        
+          <p>
+           <h1>New Audi S5<br> Sportback</h1>
+           <h2>매력적인 강함 스포티<br></h2>
+           
+          </p>
+       
+          <p class="btn">
+          <a href="#none">자세히보기</a></p>
+           
+       </div>
+      </div>
+     </div>
+ 
+
+<!-- cont7 -->
+
+
+    <div id="cont7">
+      <div class="cars3">
+        <div class="cars3_txtWrap">
+          
+          <p>
+            <h1>The new Audi RS 5<br>Sportback </h1>
+            <h2>Performance is an attitude</h2>
+            
+           </p>
+        
+           <p class="btn">
+           <a href="#none">자세히보기</a></p>
+
+        </div>
+      </div>
+    </div>
+
+
+<!-- cont8 -->
+
+
+    <div id="cont8">
+      <div class="cars4">
+       <div class="cars4_txtWrap">
+        
+          <p>
+           <h1>New Audi RS 7<br>Sportback </h1>
+           <h2>Audi Performance</h2>
+           
+          </p>
+       
+          <p class="btn">
+          <a href="#none">자세히보기</a></p>
+           
+       </div>
+      </div>
+     </div>
+ 
+
+<!-- cont9 -->
+
+
+    <div id="cont9">
+     <div class="car_pic">
+      <img src="img/audi-logo-logo-aud-wallpaper-preview.jpg" alt="">
+     </div>
+    </div>
+
+
+
+<!-- footer -->
+
+      <footer>
+        
+        <div class="footer">
+          <!-- <div class="footer1">
+            <div class="ft_logo"><a href="#none">  <img src="img/lgogoogoogoogosfssfsfsgooog.jpg" alt="푸터로고">푸터로고</a></div>
+          
+       
+           
+            <div class="sns_wrap">
+              <a href="#none"><img src="img/facebook.png" alt="페이스북"></a>
+              <a href="#none"><img src="img/icon_instar_off.png" alt="인스타그램"></a>
+              <a href="#none"><img src="img/youtube.png" alt="유튜브"></a>
+             
+              <a href="#none"><img src="img/blog.png" alt="네이버"></a>
+            </div>
+          </div> -->
+    
+          <!-- <div class="footer2">
+            <div class="ft_menu">
+              <a href="#none">개인정보방침</a>
+              <a href="#none">부정제보</a>
+              <a href="#none">타이어 에너지 소비 효율 등급 정보 조회</a>
+              <a href="#none">스마트키 KC인증 정보조회</a>
+              <a href="#none">AUDI AG의 개인정보처리에 관한 정보</a>
+              
+            </div>
+
+            
+          
+
+
+
+            <div class="input">
+              <input type="text" placeholder="차량 고유코드를 입력해주세요">
+              <a href="#none" class="btn"><img src="img/icon_top_search.png" alt="" srcset=""></a>
+              <h4>본 웹사이트에서 제공되는 정보는 실제 판매 차량과 다를 수 있습니다.</h4>
+            </div>
+     -->
+
+
+
+
+            <div class="ftmenu">
+              <div class="ftsub_wrap">
+               <div class="ftsubmu">
+              
+                <ul class="ftsub">
+                  <li><a href="#none" class="sub_n">MODELS</a></li>
+             
+                  <li><a href="#none" class="sub_b">아우디코리아 세단</a></li>
+                  <li><a href="#none" class="sub_b">아우디코리아 SUV</a></li>
+                  <li><a href="#none" class="sub_b">아우디코리아 쿠페</a></li>
+                  <li><a href="#none" class="sub_b">아우디코리아 소프트백</a></li>
+                  <li><a href="#none" class="sub_b">아우디 코리아 카브리올레</a></li>
+                  <li><a href="#none" class="sub_b">아우디 코리아 전기차</a></li>
+                  <li><a href="#none" class="sub_b">아우디 코리아 S모델</a></li>
+                  <li><a href="#none" class="sub_b">아우디 코리아 R/RS모델</a></li>
+                 
+          
+                </ul>
+                <ul class="ftsub">
+                  <li><a href="#none" class="sub_n">COMPANY</a></li>
+                  
+                  <li><a href="#none" class="sub_b">아우디 코리아 소개</a></li>
+                  <li><a href="#none" class="sub_b">아우디코리아 소식</a></li>
+                  <li><a href="#none" class="sub_b">고객안내</a></li>
+                  <li><a href="#none" class="sub_b">아우디 공식 인증 중고차</a></li>
+                  <li><a href="#none" class="sub_b">전시장 찾기</a></li>
+                 
+                </ul>
+                <ul class="ftsub">
+                  <li><a href="#none" class="sub_n">AUDI SERVICE</a></li>
+                
+                  <li><a href="#none" class="sub_b">아우디 서비스</a></li>
+                  <li><a href="#none" class="sub_b">서비스 프로그램</a></li>
+                  <li><a href="#none" class="sub_b">서비스센터</a></li>
+                  <li><a href="#none" class="sub_b">고객지원센터</a></li>
+                  <li><a href="#none" class="sub_b">아우디 순정부품</a></li>
+                  <li><a href="#none" class="sub_b">아우디 순정 악세서리</a></li>
+                  <li><a href="#none" class="sub_b">부품 가격 정보</a></li>
+                  <li><a href="#none" class="sub_b">사설수리업체를 위한 권고사항</a></li>
+                  
+                </ul>
+                <ul class="ftsub">
+                  <li><a href="#none" class="sub_n">AUDI EX
+                    PERIENCE
+                  </a></li>
+                
+                  <li><a href="#none" class="sub_b">아우디 스토리</a></li>
+                  <li><a href="#none" class="sub_b">아우디 브랜드 히스토리</a></li>
+                  <li><a href="#none" class="sub_b">quattro 시스템</a></li>
+                  <li><a href="#none" class="sub_b">Audi Connect</a></li>
+                  <li><a href="#none" class="sub_b">More possibilities</a></li>
+                  <li><a href="#none" class="sub_b">Future is an attitude</a></li>
+                  <li><a href="#none" class="sub_b">myAudiworld</a></li>
+                  <li><a href="#none" class="sub_b">아우디 드라이빙 익스피리언스</a></li>
+                  
+                </ul>
+                <ul class="ftsub">
+                  <li><a href="#none" class="sub_n">AUDI SUSTAINABILITY</a></li>
+                 
+                  <li><a href="#none" class="sub_b">전기 모빌리티</a></li>
+                  <li><a href="#none" class="sub_b">플러그인 하이브리드</a></li>
+                  
+           
+                </ul>
+              
+                
+              
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="footer2">
+            <div class="ft_menu">
+              <a href="#none">개인정보방침</a>
+              <a href="#none">부정제보</a>
+              <a href="#none">타이어 에너지 소비 효율 등급 정보 조회</a>
+              <a href="#none">스마트키 KC인증 정보조회</a>
+              <a href="#none">AUDI AG의 개인정보처리에 관한 정보</a>
+              
+            </div>
+
+            
+          
+
+
+
+            <div class="input">
+              <input type="text" placeholder="차량 고유코드를 입력해주세요">
+              <a href="#none" class="btn"><img src="img/icon_top_search.png" alt="" srcset=""></a>
+              <h4>본 웹사이트에서 제공되는 정보는 실제 판매 차량과 다를 수 있습니다.</h4>
+            </div>
+    
+
+          <!-- <address><u>https://www.audi.co.kr/kr/web/ko.html</u></address> -->
+  
+            <p class="copyright">㉿2021 Audi Korea. All rights reserved</p>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+
+
+      
+      <button class="goTop">
+        <a href="#none">TOP</a></button>
+        
+
+    
+
+  </div>
+ 
+ 
+</body>
+</html>
